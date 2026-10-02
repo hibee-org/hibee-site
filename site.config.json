@@ -1,0 +1,253 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "hibee-family-support-site",
+  "serviceId": "hibee-family-support",
+  "origin": "https://hibee.org",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "Hibee",
+      "tagline": "家庭、育ち、キャリアを、端末内から一緒に整える。",
+      "summary": "個人向け統合支援製品として、家庭予定、子育て・発達支援、健康、キャリア、ポートフォリオへの安全な入口を提供します。",
+      "features": [
+        {
+          "id": "private-by-default",
+          "title": "私的情報は端末内",
+          "summary": "家庭・健康・キャリアの詳細は原則として端末内に保持します。"
+        },
+        {
+          "id": "guided-support",
+          "title": "目的別の支援導線",
+          "summary": "相談内容を適切な機能と専門確認へ案内します。"
+        },
+        {
+          "id": "compatible-interface",
+          "title": "NERP互換インターフェース",
+          "summary": "個人向けの見せ方を保ちながら共通契約で連携します。"
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "概要",
+          "summary": "個人向け統合支援製品として、家庭予定、子育て・発達支援、健康、キャリア、ポートフォリオへの安全な入口を提供します。",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "目的",
+              "body": [
+                "個人向け統合支援製品として、家庭予定、子育て・発達支援、健康、キャリア、ポートフォリオへの安全な入口を提供します。"
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "提供するもの",
+              "body": [
+                "家庭・健康・キャリアの詳細は原則として端末内に保持します。",
+                "相談内容を適切な機能と専門確認へ案内します。",
+                "個人向けの見せ方を保ちながら共通契約で連携します。"
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "責任境界",
+              "body": [
+                "Webには公開情報と最小の権利状態だけを置きます。診断、緊急対応、自動的な重要判断を行わず、本人同意のない外部共有をしません。"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "はじめに",
+          "summary": "公開文書で情報境界を確認し、端末版を導入して、必要な支援領域だけを選択してください。専門判断が必要な場合は人による確認へ進みます。",
+          "sections": [
+            {
+              "id": "start",
+              "title": "利用の流れ",
+              "body": [
+                "公開文書で情報境界を確認し、端末版を導入して、必要な支援領域だけを選択してください。専門判断が必要な場合は人による確認へ進みます。"
+              ]
+            },
+            {
+              "id": "language",
+              "title": "言語とURL",
+              "body": [
+                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "現在の提供状態",
+              "body": [
+                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "安全性と公開境界",
+          "summary": "Webには公開情報と最小の権利状態だけを置きます。診断、緊急対応、自動的な重要判断を行わず、本人同意のない外部共有をしません。",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "公開する情報",
+              "body": [
+                "Hibeeの公開面には、公開承認された説明と文書だけを含めます。"
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "保持しない情報",
+              "body": [
+                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "制約",
+              "body": [
+                "Webには公開情報と最小の権利状態だけを置きます。診断、緊急対応、自動的な重要判断を行わず、本人同意のない外部共有をしません。"
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "プライバシー",
+        "summary": "このローカル公開面はCookie、解析識別子、問い合わせ内容を収集しません。収集機能は別途の審査と同意設計後にのみ追加します。"
+      },
+      "contact": {
+        "label": "お問い合わせ",
+        "summary": "問い合わせ送信機能は未接続です。責任部門と保管条件を承認した公開窓口だけを将来表示します。"
+      }
+    },
+    "en": {
+      "brand": "Hibee",
+      "tagline": "Organize family, development, and career support from a device-local foundation.",
+      "summary": "A personal support product providing safe paths to family schedules, parenting and development support, health, career, and portfolio tools.",
+      "features": [
+        {
+          "id": "private-by-default",
+          "title": "Private by default",
+          "summary": "Keeps detailed family, health, and career information on the device by default."
+        },
+        {
+          "id": "guided-support",
+          "title": "Guided support",
+          "summary": "Guides a concern to the appropriate capability and specialist review."
+        },
+        {
+          "id": "compatible-interface",
+          "title": "NERP-compatible interface",
+          "summary": "Uses shared contracts while retaining a personal-facing experience."
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Overview",
+          "summary": "A personal support product providing safe paths to family schedules, parenting and development support, health, career, and portfolio tools.",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "Purpose",
+              "body": [
+                "A personal support product providing safe paths to family schedules, parenting and development support, health, career, and portfolio tools."
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "What we provide",
+              "body": [
+                "Keeps detailed family, health, and career information on the device by default.",
+                "Guides a concern to the appropriate capability and specialist review.",
+                "Uses shared contracts while retaining a personal-facing experience."
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "Responsibility boundary",
+              "body": [
+                "The web surface holds public information and minimum entitlement state only. It does not diagnose, handle emergencies, make important decisions automatically, or share information externally without consent."
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Getting started",
+          "summary": "Review the information boundary, install the device application, and select only the support areas you need. Matters requiring professional judgment are escalated to human review.",
+          "sections": [
+            {
+              "id": "start",
+              "title": "How to begin",
+              "body": [
+                "Review the information boundary, install the device application, and select only the support areas you need. Matters requiring professional judgment are escalated to human review."
+              ]
+            },
+            {
+              "id": "language",
+              "title": "Languages and URLs",
+              "body": [
+                "Japanese and English use the same information structure and preserve the current page when switching language."
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "Current availability",
+              "body": [
+                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Safety and publication boundary",
+          "summary": "The web surface holds public information and minimum entitlement state only. It does not diagnose, handle emergencies, make important decisions automatically, or share information externally without consent.",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "Public information",
+              "body": [
+                "The Hibee public surface contains only approved public descriptions and documentation."
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "Information not held here",
+              "body": [
+                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "Limitations",
+              "body": [
+                "The web surface holds public information and minimum entitlement state only. It does not diagnose, handle emergencies, make important decisions automatically, or share information externally without consent."
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "Privacy",
+        "summary": "This local public surface collects no cookies, analytics identifiers, or inquiry content. Collection may be added only after separate review and consent design."
+      },
+      "contact": {
+        "label": "Contact",
+        "summary": "Inquiry submission is not connected. A public channel will be shown only after its responsible team and retention terms are approved."
+      }
+    }
+  }
+}
