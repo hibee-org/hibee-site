@@ -62,6 +62,13 @@
               "body": [
                 "Webには公開情報と最小の権利状態だけを置きます。診断、緊急対応、自動的な重要判断を行わず、本人同意のない外部共有をしません。"
               ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "ページから改善へ",
+              "body": [
+                "対象ページ、目的、期待する挙動、package版と公開できる再現手順をownerへ共有してください。配置の調整は実際の利用とフィードバックから行います。秘密鍵、token、実顧客データは送らないでください。"
+              ]
             }
           ]
         },
@@ -179,6 +186,13 @@
               "title": "Responsibility boundary",
               "body": [
                 "The web surface holds public information and minimum entitlement state only. It does not diagnose, handle emergencies, make important decisions automatically, or share information externally without consent."
+              ]
+            },
+            {
+              "id": "page-feedback",
+              "title": "From page to feedback",
+              "body": [
+                "Share the page, purpose, expected behavior, package version and public reproduction steps with the owner. Refine placement using actual usage and feedback. Do not share tokens, keys or customer data."
               ]
             }
           ]

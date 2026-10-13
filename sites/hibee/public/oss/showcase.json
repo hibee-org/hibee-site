@@ -1,0 +1,39 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "hibee-org",
+  "observedAt": "2026-10-13T04:06:00Z",
+  "entries": [
+    {
+      "id": "hibee-org-hat-hibee-operator",
+      "kind": "oss",
+      "name": {
+        "ja": "hat-hibee-operator",
+        "en": "hat-hibee-operator"
+      },
+      "summary": {
+        "ja": "hibee-org/hat-hibee-operator の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Hibeeの許可されたローカル状態を確認する役割の宣言と、入力・版の検証を利用できます。 / Provide the declared role interface for reviewing permitted local Hibee state."
+      },
+      "repository": "https://github.com/hibee-org/hat-hibee-operator",
+      "homepage": "https://github.com/hibee-org/hat-hibee-operator",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "hibee-org-hibee-site",
+      "kind": "oss",
+      "name": {
+        "ja": "hibee-site",
+        "en": "hibee-site"
+      },
+      "summary": {
+        "ja": "hibee-org/hibee-site の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "家庭・育ち・健康・キャリア支援の考え方を案内できます。実サービスの提供状況とは区別して記述します。 / Explain the intended support for home, growth, health and career."
+      },
+      "repository": "https://github.com/hibee-org/hibee-site",
+      "homepage": "https://github.com/hibee-org/hibee-site",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}
